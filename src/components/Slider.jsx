@@ -1,4 +1,4 @@
-import {ArrowBack, ArrowForward } from "@material-ui/icons";
+import { ArrowBack, ArrowForward } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";

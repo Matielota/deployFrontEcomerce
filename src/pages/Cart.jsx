@@ -171,10 +171,6 @@ const Cart = () => {
     setStripeToken(token);
   };
 
-
-
-
- 
   const handldeRemove= (id)=>{
     const cartFiltrado= cart.products.filter(e=>e._id!==id)
     const priceFiltrado= cart.products.find(e=>e._id===id)

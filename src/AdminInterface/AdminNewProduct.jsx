@@ -107,7 +107,7 @@ export default function AdminNewProduct() {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
           const product = { ...inputs, img: downloadURL, categories: cat, size: size, color: color };
           addProduct(product, dispatch);
-          window.location = "http://localhost:3000/adminproducts"
+          window.location = "https://deploy-front-ecomerce.vercel.app/adminproducts"
         });
       }
     );

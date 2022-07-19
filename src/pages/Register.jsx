@@ -100,7 +100,7 @@ const initialValues = {
           title: "Se registro correctamente",
           text: "disfrute del servicio",
         }).then(() => {
-          window.location = "http://localhost:3000/";
+          window.location = "https://deploy-front-ecomerce.vercel.app/";
         });
       }
     };
